@@ -14,7 +14,7 @@ html,body
 }
 
 .hero{
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background-image:linear-gradient(rgba(0,0,0,0.5),#454d4c)  , url(../img/background.jpg);
 	background-size: cover;
