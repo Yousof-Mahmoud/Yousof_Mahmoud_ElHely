@@ -4,6 +4,15 @@
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .hero{
 	height: 100vh;
 	width: 100%;
@@ -57,7 +66,7 @@ nav ul li a:hover{
 	transform: scale(1.2);
 }
 .content{
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left:8%;
 	transform: translateY(-50%);
@@ -114,7 +123,7 @@ h4{
 	width: 430px;
 }
 .about-text{
-	width: 550px;
+	width: 50%	;
 }
 .main{
 	width: 1130px;
@@ -299,7 +308,7 @@ footer p:nth-child(2){
 	transition: .3s;
 }
 .end{
-	position: absolute;
+	position: relative;
 	color:#f9004d;
 	bottom: 35px;
 	font-size: 14px; 
