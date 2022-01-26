@@ -16,9 +16,9 @@ html,body
 .hero{
 	height: 100%;
 	width: 100%;
-	background-image:linear-gradient(rgba(0,0,0,0.5),#454d4c)  , url(../img/background.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),#191919)  , url(../img/background.jpg);
 	background-size: cover;
-	background-position:left;
+	background-position: center;
 }
 nav{
 	display: flex;
@@ -112,7 +112,7 @@ h4{
 	top: 6px;
 	right: 6px; 
 }
-
+/* The about us section*/
 .about{
 	width: 100%;
 	padding: 100px 0px;
@@ -168,8 +168,59 @@ button:hover{
 	border: 2px solid #009688;
 	cursor: pointer;
 }
+/* The card slider section*/
+/*
+.wrapper {
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.5),#009688)  
+	
+}
+.h1{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.wrapper .carousel{
+	position: relative;
+	max-width: auto;
+	margin: auto;
+	padding: 0 60px;
+}
+
+.carousel .card {
+	height: 400px;
+}
+  #c1 {
+	background: url(../img/CARD_SLIDER/COSP.jpg) no-repeat center
+	center/contain;
+  }
+  #c2 {
+	background: url(../img/CARD_SLIDER/GAHAR.jfif) no-repeat center
+	center/contain;
+  }
+  #c3 {
+	background: url(../img/CARD_SLIDER/CUT.jfif) no-repeat center
+	center/contain;
+  }
+  #c4 {
+	background: url(../img/CARD_SLIDER/ACA.jfif) no-repeat center
+	center/cover;
+  }
+  #c5 {
+	background: url(../img/CARD_SLIDER/RESK.jfif) no-repeat center
+	center/contain;
+  }
+  #c6 {
+	background: url(../img/CARD_SLIDER/EGSA.jfif) no-repeat center
+	center/contain;
+  }
+  */
+/* The Service section*/
 
 .service{
+
 	background: #101010;
 	width: 100%;
 	padding: 100px 0px;
