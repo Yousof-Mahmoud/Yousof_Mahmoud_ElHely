@@ -18,7 +18,7 @@ html,body
 	width: 100%;
 	background-image:linear-gradient(rgba(0,0,0,0.5),#191919)  , url(../img/background.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position:left;
 }
 nav{
 	display: flex;
@@ -116,7 +116,7 @@ h4{
 .about{
 	width: 100%;
 	padding: 100px 0px;
-	background-color: #191919;
+	background-color: #101010;
 }
 .about img{
 	height: auto;
@@ -169,54 +169,104 @@ button:hover{
 	cursor: pointer;
 }
 /* The card slider section*/
-/*
+
 .wrapper {
 	width: 100%;
-	background: linear-gradient(rgba(0,0,0,0.5),#009688)  
-	
+	background: #191919;
+	/* background: linear-gradient(rgba(0,0,0,0.5),#009688)  */
 }
-.h1{
-	color: white;
-	font-size: 75px;
-	width: 1130px;
-	margin: 30px auto;
-	text-align: center;
-}
+
 .wrapper .carousel{
 	position: relative;
 	max-width: auto;
 	margin: auto;
 	padding: 0 60px;
 }
-
 .carousel .card {
 	height: 400px;
 }
-  #c1 {
+.card_text h2{
+	font-size: medium;
+	position:absolute;
+	bottom: 0;
+	left: 20px;
+	right: 20px;
+	color: white;
+	text-shadow: #000;
+	background: rgba(0, 0, 0, 0.5)  ;
+}
+  #COSP {
 	background: url(../img/CARD_SLIDER/COSP.jpg) no-repeat center
 	center/contain;
   }
-  #c2 {
+  #GAHAR {
 	background: url(../img/CARD_SLIDER/GAHAR.jfif) no-repeat center
 	center/contain;
   }
-  #c3 {
+  #CUT {
 	background: url(../img/CARD_SLIDER/CUT.jfif) no-repeat center
 	center/contain;
   }
-  #c4 {
+  #ACA {
 	background: url(../img/CARD_SLIDER/ACA.jfif) no-repeat center
 	center/cover;
   }
-  #c5 {
+  #RESK {
 	background: url(../img/CARD_SLIDER/RESK.jfif) no-repeat center
 	center/contain;
   }
-  #c6 {
+  #EGSA {
 	background: url(../img/CARD_SLIDER/EGSA.jfif) no-repeat center
 	center/contain;
   }
-  */
+  .owl-dots {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  .owl-dot {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+	margin: 10px 10px;
+	border: 2px solid #fff !important;
+	transition: all 0.3s ease;
+  }
+  
+  .owl-dot:hover,
+  .owl-dot.active {
+	background-color: #fff !important;
+  }
+  
+  .owl-prev,
+  .owl-next {
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -50%);
+  }
+  
+  .owl-prev {
+	left: 40px;
+  }
+  
+  .owl-next {
+	right: 20px;
+  }
+  
+  .fa-chevron-left,
+  .fa-chevron-right {
+	font-size: 30px;
+	color: #fff;
+	transition: all 0.2s;
+  }
+  
+  .fa-chevron-left:hover,
+  .fa-chevron-right:hover {
+	color: #777;
+  }
+
 /* The Service section*/
 
 .service{
@@ -267,6 +317,14 @@ h5{
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
+	text-align: left;
+}
+.pra ul li{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+	text-align: left;
 }
 .card .button{
 	background-color:#009688;
