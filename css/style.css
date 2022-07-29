@@ -1,9 +1,13 @@
+
+
 *{
 	padding: 0;
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
+
 html,body
 {
     width: 100%;
@@ -11,6 +15,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+	background: #191919;
 }
 
 .hero{
@@ -19,6 +24,11 @@ html,body
 	background-image:linear-gradient(rgba(0,0,0,0.5),#191919)  , url(../img/background.jpg);
 	background-size: cover;
 	background-position:left;
+}
+@media all and (max-width: 768px){
+	.hero{
+		height: 50%;
+	}
 }
 nav{
 	display: flex;
@@ -175,6 +185,12 @@ button:hover{
 	background: #191919;
 	/* background: linear-gradient(rgba(0,0,0,0.5),#009688)  */
 }
+.wrapper .text {
+	color: #fff;
+	text-align: center;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
 
 .wrapper .carousel{
 	position: relative;
@@ -219,6 +235,27 @@ button:hover{
 	background: url(../img/CARD_SLIDER/EGSA.jfif) no-repeat center
 	center/contain;
   }
+  #ISchool{
+	background: url(../img/CARD_SLIDER/Ischool.jfif) no-repeat center
+	center/contain;
+  }
+  #E_Student {
+	background: url(../img/CARD_SLIDER/E_student.jfif) no-repeat center
+	center/contain;
+  }
+  #EACA {
+	background: url(../img/CARD_SLIDER/EACA.jfif) no-repeat center
+	center/contain;
+  }
+  #Nasser {
+	background: url(../img/CARD_SLIDER/nasser.jpeg) no-repeat center
+	center/contain;
+  }
+  #CUFE_SBME{
+	background: url(../img/CARD_SLIDER/SBMECUFE.gif) no-repeat center
+	center/contain;
+  }
+
   .owl-dots {
 	text-align: center;
 	margin-top: 20px;
