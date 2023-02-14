@@ -210,7 +210,27 @@ button:hover{
 	color: white;
 	text-shadow: #000;
 	background: rgba(0, 0, 0, 0.5)  ;
-}
+}	
+ #Etijah {
+	background: url(../img/CARD_SLIDER/etijah.gif) no-repeat center
+	center/contain;
+  }
+  #Udacity {
+	background: url(../img/CARD_SLIDER/Udacity.gif) no-repeat center
+	center/contain;
+  }
+ #CoP27 {
+	background: url(../img/CARD_SLIDER/cop27.jpeg) no-repeat center
+	center/contain;
+  }
+ #MCoP27 {
+	background: url(../img/CARD_SLIDER/mcop27.jpeg) no-repeat center
+	center/contain;
+  }
+ #Aspire22 {
+	background: url(../img/CARD_SLIDER/aspire\ grad.jpeg) no-repeat center
+	center/contain;
+  }
   #COSP {
 	background: url(../img/CARD_SLIDER/COSP.jpg) no-repeat center
 	center/contain;
