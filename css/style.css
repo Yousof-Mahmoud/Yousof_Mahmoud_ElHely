@@ -211,6 +211,10 @@ button:hover{
 	text-shadow: #000;
 	background: rgba(0, 0, 0, 0.5)  ;
 }	
+ #iSchool2 {
+	background: url(../img/CARD_SLIDER/Ischool-back-5.gif) no-repeat center
+	center/contain;
+  }
  #Etijah {
 	background: url(../img/CARD_SLIDER/etijah.gif) no-repeat center
 	center/contain;
